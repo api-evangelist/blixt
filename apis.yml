@@ -1,8 +1,26 @@
 aid: blixt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blixt.png
 name: Blixt
-description: Blixt is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'BL!XT (Blixt) is a Swedish deep-tech company building intelligent, programmable
+  power infrastructure that turns electrical distribution from analog systems into digitally
+  controlled, software-defined platforms. Its products include ZERO, a solid-state current-control
+  switchgear for circuit-level protection, monitoring, and automation; X-VERTER, a software-defined
+  voltage conversion system with integrated energy storage; and THE ZONE, an AI-driven software
+  intelligence layer that coordinates connected distribution devices for real-time analysis, failure
+  prediction, and load balancing. BL!XT serves data centers, industrial manufacturing, maritime
+  vessels, grid providers, and defense. Headquartered in Kista, Sweden and backed by Union Square
+  Ventures. As of this enrichment pass the company publishes no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/blixt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy
+- Power Infrastructure
+- Hardware
+- Electrical Distribution
+- Deep Tech
+- Data Centers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blixt-domain-security.yml
 - type: Website
   url: https://blixt.tech
+- type: PrivacyPolicy
+  url: https://blixt.tech/privacy-policy
+- type: TermsOfService
+  url: https://blixt.tech/services-store
+- type: Support
+  url: mailto:info@blixt.tech
+- type: LinkedIn
+  url: https://www.linkedin.com/company/blixttech/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
