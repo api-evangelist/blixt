@@ -33,6 +33,9 @@ description: 'BL!XT (Blixt) is a Swedish deep-tech company building intelligent,
   vessels, grid providers, and defense. Headquartered in Kista, Sweden and backed by Union Square
   Ventures. As of this enrichment pass the company publishes no public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/blixt/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this enrichment pass the company publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
