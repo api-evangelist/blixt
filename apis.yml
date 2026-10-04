@@ -52,7 +52,7 @@ tags:
 - Hardware
 - Electrical Distribution
 - Deep Tech
-- Data-Center
+- Data Center
 - Sweden
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Deep Tech
 - Data Centers
 - Sweden
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
